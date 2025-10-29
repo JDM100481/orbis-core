@@ -1,0 +1,12 @@
+# model_config.yaml
+llm:
+  provider: "ollama"
+  model: "mistral"   # local reasoning model
+speech_to_text:
+  provider: "whisper.cpp"
+  model: "base"
+tts:
+  provider: "local_tts"
+  voice: "orbis_default_female"
+ocr:
+  provider: "tesseract"

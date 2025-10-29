@@ -1,0 +1,9 @@
+# privacy_policy.yaml
+offline_first: true
+one_time_outbound_rule:
+  required_explicit_user_approval: true
+  log_all_activity: true
+recording:
+  mic_hardware_kill_respected: true
+  camera_hardware_shutter_respected: true
+telemetry: false

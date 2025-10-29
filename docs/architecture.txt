@@ -1,0 +1,11 @@
+[architecture placeholder]
+
+Orbis Core (VM on Proxmox)
+  - llm (Ollama)
+  - whisper.cpp / TTS
+  - memory (SQLite + Markdown)
+  - privacy firewall
+Interfaces (thin client, voice console)
+Data Vault (raw audio/video/scan -> OCR/transcript -> summary)
+
+Future diagram goes here: docs/architecture.png
